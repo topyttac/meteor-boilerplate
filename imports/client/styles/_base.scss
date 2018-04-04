@@ -14,17 +14,23 @@ body {
 }
 
 h1 {
-  font-weight: 300;
-  margin-bottom: $space;
+  font-weight: 400;
+  font-size: $extra-large-font-size;
 }
 
 h2 {
-  margin-bottom: $space;
+  font-weight: 300;
   font-size: $large-font-size;
 }
 
+h3 {
+  font-weight: 200;
+  font-size: $medium-font-size;
+}
+
 p {
-  margin-bottom: $space;
+  font-weight: 100;
+  font-size: $base-font-size;
 }
 a {
   color: black;
@@ -33,6 +39,5 @@ a {
 input[type=text], input[type=email], input[type=password] {
   border: 1px solid $input-border;
   font-size: $base-font-size;
-  margin-bottom: $space;
   padding: .8rem;
 }

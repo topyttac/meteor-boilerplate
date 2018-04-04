@@ -1,0 +1,13 @@
+.main-menu {
+    background: $brand-primary;
+    color: #FFFFFF;
+  }
+  
+  .main-menu__content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    max-width: $site-max-width;
+    margin: 0 auto;
+    padding: $space;
+  }
